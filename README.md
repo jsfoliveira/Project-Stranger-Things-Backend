@@ -40,17 +40,17 @@ Se existe a variável de ambiente PORT; <br> Se a variável de ambiente UPSIDEDO
 
 #### :footprints:Requisito 2 - Verifica se o arquivo Dockerfile está configurado da maneira correta
 O teste irá verificar se o arquivo `Dockerfile` existe e está configurado da maneira correta. Ele deve construir a imagem a partir da `node:14-alpine` e usar o comando `npm start` para iniciar a aplicação via `CMD`.
-#### Comandos feitos no requisito 3 - Verifica se o arquivo heroku.yml está configurado na maneira correta
+#### :footprints:Requisito 3 - Verifica se o arquivo heroku.yml está configurado na maneira correta
 Adicione e configure o arquivo heroku.yml.
 * O arquivo deve iniciar um servidor do tipo web;
 * O run deve executar o servidor utilizando o node.
 
-#### Comandos feitos no requisito 4 - Verifica action de Linter para ser executada no GitHub
+#### :footprints:Requisito 4 - Verifica action de Linter para ser executada no GitHub
 Você deverá criar uma Action para ser executada somente em **pull_requests** solicitados em todas as branches de seu repositório.
 
 * Atenção: O arquivo de configuração da action deverá ser criado em: ./actions/ com o nome project.yml.
 
-#### Comandos feitos no requisito 5 - Verifica o Deploy no Heroku
+#### :footprints:Requisito 5 - Verifica o Deploy no Heroku
 Crie dois apps para a API: um para o o app hawkins e outro para o app upside-down.
 
 * warningIMPORTANTE: Uma variável de ambiente com o nome GITHUB_USER deverá ser criada em seu .env com o seu nome de pessoa usuária do GitHub.
